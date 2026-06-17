@@ -1,0 +1,12 @@
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/bin/Release/net10.0/PrayerTimeV1.Maui.Core.deps.json
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/bin/Release/net10.0/PrayerTimeV1.Maui.Core.dll
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/bin/Release/net10.0/PrayerTimeV1.Maui.Core.pdb
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/obj/Release/net10.0/PrayerTimeV1.Maui.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/obj/Release/net10.0/PrayerTimeV1.Maui.Core.AssemblyInfoInputs.cache
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/obj/Release/net10.0/PrayerTimeV1.Maui.Core.AssemblyInfo.cs
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/obj/Release/net10.0/PrayerTimeV1.Maui.Core.csproj.CoreCompileInputs.cache
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/obj/Release/net10.0/PrayerTimeV1.Maui.Core.sourcelink.json
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/obj/Release/net10.0/PrayerTimeV1.Maui.Core.dll
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/obj/Release/net10.0/refint/PrayerTimeV1.Maui.Core.dll
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/obj/Release/net10.0/PrayerTimeV1.Maui.Core.pdb
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui.Core/obj/Release/net10.0/ref/PrayerTimeV1.Maui.Core.dll

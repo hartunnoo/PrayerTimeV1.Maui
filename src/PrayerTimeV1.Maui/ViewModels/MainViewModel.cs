@@ -129,7 +129,7 @@ public class MainViewModel : INotifyPropertyChanged
             if (time == null) continue;
 
             PrayerSlotState state;
-            if (now >= time.Value)
+            if (now.TimeOfDay >= time.Value)
             {
                 state = PrayerSlotState.Passed;
                 current = name;
