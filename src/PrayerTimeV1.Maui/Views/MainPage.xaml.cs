@@ -5,6 +5,7 @@ namespace PrayerTimeV1.Maui.Views;
 public partial class MainPage : ContentPage
 {
     private readonly MainViewModel _vm;
+    private bool _loaded;
 
     public MainPage(MainViewModel vm)
     {
@@ -16,6 +17,18 @@ public partial class MainPage : ContentPage
     protected override async void OnAppearing()
     {
         base.OnAppearing();
-        await _vm.LoadAsync();
+        if (!_loaded)
+        {
+            _loaded = true;
+            try
+            {
+                await _vm.LoadAsync();
+            }
+            catch (Exception ex)
+            {
+                _vm.ErrorMessage = $"Ralat: {ex.Message}";
+                _vm.IsLoading = false;
+            }
+        }
     }
 }

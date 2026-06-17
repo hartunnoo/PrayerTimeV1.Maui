@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrayerTimeV1.Maui.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4accb673f6ec4c8f0838e83ad80a7158bbe7a95f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fcdb448fd4ef9a123739edb442e715ef9d1c37e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrayerTimeV1.Maui.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrayerTimeV1.Maui.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
