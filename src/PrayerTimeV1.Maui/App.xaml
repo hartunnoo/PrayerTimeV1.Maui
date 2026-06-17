@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrayerTimeV1.Maui.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Colors: dark navy + gold accent, matching lakastahsolat.com -->
+            <Color x:Key="Primary">#0b1a30</Color>
+            <Color x:Key="Secondary">#1e3a5f</Color>
+            <Color x:Key="Accent">#c9a84c</Color>
+            <Color x:Key="TextPrimary">#e8edf8</Color>
+            <Color x:Key="TextSecondary">#94a3b8</Color>
+            <Color x:Key="Surface">#0d1525</Color>
+            <Color x:Key="Background">#060b14</Color>
+            <Color x:Key="PrayerLive">#10b981</Color>
+            <Color x:Key="PrayerNext">#c9a84c</Color>
+            <Color x:Key="PrayerUpcoming">#e8edf8</Color>
+            <Color x:Key="PrayerPassed">#475569</Color>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
