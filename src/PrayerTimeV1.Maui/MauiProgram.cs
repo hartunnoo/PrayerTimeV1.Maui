@@ -1,4 +1,3 @@
-using Microsoft.Extensions.Logging;
 using PrayerTimeV1.Maui.Core.Interfaces;
 using PrayerTimeV1.Maui.Core.Services;
 using PrayerTimeV1.Maui.ViewModels;
@@ -12,9 +11,13 @@ public static class MauiProgram
     {
         var builder = MauiApp.CreateBuilder();
         builder
-            .UseMauiApp<App>();
+            .UseMauiApp<App>()
+            .ConfigureFonts(fonts =>
+            {
+                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+            });
 
-        // Services
         builder.Services.AddHttpClient<IApiClient, ApiClient>();
         builder.Services.AddTransient<MainViewModel>();
         builder.Services.AddTransient<MainPage>();
