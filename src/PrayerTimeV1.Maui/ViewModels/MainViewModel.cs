@@ -1,8 +1,8 @@
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using PrayerTimeV1.Maui.Core.Interfaces;
-using PrayerTimeV1.Maui.Core.Models;
+using PrayerTimeV1.Maui.Interfaces;
+using PrayerTimeV1.Maui.Models;
 
 namespace PrayerTimeV1.Maui.ViewModels;
 

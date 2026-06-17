@@ -1,5 +1,5 @@
-using PrayerTimeV1.Maui.Core.Interfaces;
-using PrayerTimeV1.Maui.Core.Services;
+using PrayerTimeV1.Maui.Interfaces;
+using PrayerTimeV1.Maui.Services;
 using PrayerTimeV1.Maui.ViewModels;
 using PrayerTimeV1.Maui.Views;
 
