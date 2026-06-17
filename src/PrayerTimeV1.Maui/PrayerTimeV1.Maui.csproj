@@ -28,10 +28,10 @@
 		<MauiXamlInflator>SourceGen</MauiXamlInflator>
 
 		<!-- Display name -->
-		<ApplicationTitle>PrayerTimeV1.Maui</ApplicationTitle>
+		<ApplicationTitle>Waktu Solat</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.prayertimev1.maui</ApplicationId>
+		<ApplicationId>com.lakastahsolat.prayertime</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -68,7 +68,6 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Http" Version="10.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
 	</ItemGroup>
 
 </Project>
