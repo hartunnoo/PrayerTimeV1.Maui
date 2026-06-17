@@ -93,7 +93,7 @@ public class MainViewModel : INotifyPropertyChanged
         }
         catch (Exception ex)
         {
-            ErrorMessage = $"Gagal memuat: {ex.Message}";
+            ErrorMessage = $"Gagal memuat: {ex.GetType().Name}: {ex.Message}\n\n{ex.StackTrace}";
         }
         finally
         {
