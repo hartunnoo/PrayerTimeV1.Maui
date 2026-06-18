@@ -12,11 +12,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrayerTimeV1.Maui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2+a362d11b3a3f94b30a18d7a5c77c994130796c2f")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.3.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.3+8ea10083c5915af50a07289db82a9ce6fc12d717")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrayerTimeV1.Maui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrayerTimeV1.Maui")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.2.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.3.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Android36.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android21.0")]
 
