@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrayerTimeV1.Maui</name>
+    </assembly>
+    <members>
+        <member name="T:PrayerTimeV1.Maui.Models.PrayerTimeDto">
+            <summary>
+            Prayer time data from the PrayerTimeV1 API.
+            Matches the PrayerTimeListDto shape from the server.
+            </summary>
+        </member>
+        <member name="T:PrayerTimeV1.Maui.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>
