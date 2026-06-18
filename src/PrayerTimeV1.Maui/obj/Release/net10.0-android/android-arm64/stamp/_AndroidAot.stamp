@@ -18,6 +18,7 @@ obj/Release/net10.0-android/android-arm64/aot/Microsoft.Maui.Controls.Xaml.dll.s
 obj/Release/net10.0-android/android-arm64/aot/Microsoft.Maui.dll.so
 obj/Release/net10.0-android/android-arm64/aot/Microsoft.Maui.Essentials.dll.so
 obj/Release/net10.0-android/android-arm64/aot/Microsoft.Maui.Graphics.dll.so
+obj/Release/net10.0-android/android-arm64/aot/Plugin.Maui.Audio.dll.so
 obj/Release/net10.0-android/android-arm64/aot/Xamarin.AndroidX.Activity.dll.so
 obj/Release/net10.0-android/android-arm64/aot/Xamarin.AndroidX.AppCompat.dll.so
 obj/Release/net10.0-android/android-arm64/aot/Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
@@ -41,6 +42,7 @@ obj/Release/net10.0-android/android-arm64/aot/Xamarin.AndroidX.Navigation.UI.dll
 obj/Release/net10.0-android/android-arm64/aot/Xamarin.AndroidX.RecyclerView.dll.so
 obj/Release/net10.0-android/android-arm64/aot/Xamarin.AndroidX.SavedState.SavedState.Android.dll.so
 obj/Release/net10.0-android/android-arm64/aot/Xamarin.AndroidX.SwipeRefreshLayout.dll.so
+obj/Release/net10.0-android/android-arm64/aot/Xamarin.AndroidX.VersionedParcelable.dll.so
 obj/Release/net10.0-android/android-arm64/aot/Xamarin.AndroidX.ViewPager.dll.so
 obj/Release/net10.0-android/android-arm64/aot/Xamarin.AndroidX.ViewPager2.dll.so
 obj/Release/net10.0-android/android-arm64/aot/Xamarin.Google.Android.Material.dll.so
@@ -56,6 +58,7 @@ obj/Release/net10.0-android/android-arm64/aot/System.ComponentModel.TypeConverte
 obj/Release/net10.0-android/android-arm64/aot/System.ComponentModel.dll.so
 obj/Release/net10.0-android/android-arm64/aot/System.Console.dll.so
 obj/Release/net10.0-android/android-arm64/aot/System.Diagnostics.DiagnosticSource.dll.so
+obj/Release/net10.0-android/android-arm64/aot/System.Diagnostics.TraceSource.dll.so
 obj/Release/net10.0-android/android-arm64/aot/System.Drawing.Primitives.dll.so
 obj/Release/net10.0-android/android-arm64/aot/System.Drawing.dll.so
 obj/Release/net10.0-android/android-arm64/aot/System.Formats.Asn1.dll.so

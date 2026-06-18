@@ -6,28 +6,25 @@
              BackgroundColor="#060b14"
              Shell.NavBarIsVisible="False">
 
-    <Grid RowDefinitions="Auto,Auto,*,Auto" Padding="16">
+    <Grid RowDefinitions="Auto,Auto,Auto,*,Auto" Padding="16">
 
-        <!-- Header -->
         <VerticalStackLayout Grid.Row="0" Spacing="4" Padding="0,20,0,0">
-            <Label Text="WAKTU SOLAT"
-                   FontSize="28" FontAttributes="Bold"
-                   HorizontalOptions="Center"
-                   TextColor="#c9a84c" />
-            <Label Text="Negara Brunei Darussalam"
-                   FontSize="14" HorizontalOptions="Center"
-                   TextColor="#94a3b8" />
-            <Label Text="{Binding DateDisplay}"
-                   FontSize="16" FontAttributes="Bold"
-                   HorizontalOptions="Center"
-                   TextColor="#e8edf8" Margin="0,12,0,0" />
-            <Label Text="{Binding HijriDisplay}"
-                   FontSize="14" HorizontalOptions="Center"
-                   TextColor="#c9a84c" />
+            <Label Text="WAKTU SOLAT" FontSize="28" FontAttributes="Bold"
+                   HorizontalOptions="Center" TextColor="#c9a84c" />
+            <Label Text="Negara Brunei Darussalam" FontSize="14"
+                   HorizontalOptions="Center" TextColor="#94a3b8" />
+            <Label Text="{Binding DateDisplay}" FontSize="16" FontAttributes="Bold"
+                   HorizontalOptions="Center" TextColor="#e8edf8" Margin="0,12,0,0" />
+            <Label Text="{Binding HijriDisplay}" FontSize="14"
+                   HorizontalOptions="Center" TextColor="#c9a84c" />
         </VerticalStackLayout>
 
-        <!-- Countdown Card -->
-        <Frame Grid.Row="1" BackgroundColor="#0d1525"
+        <HorizontalStackLayout Grid.Row="1" Spacing="10" HorizontalOptions="Center" Margin="0,8,0,0">
+            <Label Text="🔔 Azan" FontSize="13" TextColor="#94a3b8" VerticalOptions="Center" />
+            <Switch x:Name="AzanSwitch" IsToggled="True" OnColor="#10b981" />
+        </HorizontalStackLayout>
+
+        <Frame Grid.Row="2" BackgroundColor="#0d1525"
                BorderColor="#c9a84c" CornerRadius="12"
                Padding="16" Margin="0,16" HasShadow="False">
             <VerticalStackLayout Spacing="8" HorizontalOptions="Center">
@@ -42,8 +39,7 @@
             </VerticalStackLayout>
         </Frame>
 
-        <!-- Prayer Slots -->
-        <CollectionView Grid.Row="2" ItemsSource="{Binding PrayerSlots}" SelectionMode="None">
+        <CollectionView Grid.Row="3" ItemsSource="{Binding PrayerSlots}" SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="vm:PrayerSlotViewModel">
                     <Grid ColumnDefinitions="Auto,*,Auto" Padding="12,8" ColumnSpacing="12">
@@ -57,17 +53,12 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
 
-        <!-- Loading -->
-        <ActivityIndicator Grid.Row="2" IsRunning="{Binding IsLoading}"
-                           IsVisible="{Binding IsLoading}" Color="#c9a84c"
-                           VerticalOptions="Center" />
-        <Label Grid.Row="2" Text="{Binding ErrorMessage}"
-               IsVisible="{Binding HasError}" TextColor="#ef4444"
-               HorizontalOptions="Center" VerticalOptions="Center" />
+        <ActivityIndicator Grid.Row="3" IsRunning="{Binding IsLoading}"
+                           IsVisible="{Binding IsLoading}" Color="#c9a84c" VerticalOptions="Center" />
+        <Label Grid.Row="3" Text="{Binding ErrorMessage}" IsVisible="{Binding HasError}"
+               TextColor="#ef4444" HorizontalOptions="Center" VerticalOptions="Center" />
 
-        <!-- Footer -->
-        <Label Grid.Row="3" Text="Waktu Solat · Brunei Darussalam"
-               FontSize="11" HorizontalOptions="Center"
-               TextColor="#64748b" Margin="0,0,0,8" />
+        <Label Grid.Row="4" Text="Waktu Solat · Brunei Darussalam"
+               FontSize="11" HorizontalOptions="Center" TextColor="#64748b" Margin="0,0,0,8" />
     </Grid>
 </ContentPage>
