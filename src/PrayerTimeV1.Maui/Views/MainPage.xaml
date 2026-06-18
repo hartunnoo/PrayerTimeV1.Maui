@@ -66,7 +66,7 @@
                HorizontalOptions="Center" VerticalOptions="Center" />
 
         <!-- Footer -->
-        <Label Grid.Row="3" Text="SSCU, ITD · Istana Nurul Iman"
+        <Label Grid.Row="3" Text="Waktu Solat · Brunei Darussalam"
                FontSize="11" HorizontalOptions="Center"
                TextColor="#64748b" Margin="0,0,0,8" />
     </Grid>
