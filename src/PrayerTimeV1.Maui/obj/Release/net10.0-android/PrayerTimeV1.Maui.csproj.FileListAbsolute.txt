@@ -1,3 +1,11 @@
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/PrayerTimeV1.Maui.runtimeconfig.json
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/PrayerTimeV1.Maui.dll
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/PrayerTimeV1.Maui.pdb
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/com.lakastahsolat.prayertime.apk
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/com.lakastahsolat.prayertime.aab
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/com.lakastahsolat.prayertime-Signed.aab
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/com.lakastahsolat.prayertime-Signed.apk
+/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/com.lakastahsolat.prayertime-Signed.apk.idsig
 /home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/obj/Release/net10.0-android/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
 /home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/obj/Release/net10.0-android/build.props
 /home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/obj/Release/net10.0-android/adb.props
@@ -118,14 +126,6 @@
 /home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/obj/Release/net10.0-android/PrayerTimeV1.Maui.AssemblyInfo.cs
 /home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/obj/Release/net10.0-android/PrayerTimeV1.Maui.csproj.CoreCompileInputs.cache
 /home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/obj/Release/net10.0-android/PrayerTimeV1.Maui.sourcelink.json
-/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/PrayerTimeV1.Maui.runtimeconfig.json
-/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/PrayerTimeV1.Maui.dll
-/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/PrayerTimeV1.Maui.pdb
-/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/com.lakastahsolat.prayertime.apk
-/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/com.lakastahsolat.prayertime.aab
-/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/com.lakastahsolat.prayertime-Signed.aab
-/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/com.lakastahsolat.prayertime-Signed.apk
-/home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/bin/Release/net10.0-android/com.lakastahsolat.prayertime-Signed.apk.idsig
 /home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/obj/Release/net10.0-android/XamlC.stamp
 /home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/obj/Release/net10.0-android/PrayerTimeV1.Maui.dll
 /home/ubuntu/apps/PrayerTimeV1.Maui/src/PrayerTimeV1.Maui/obj/Release/net10.0-android/PrayerTimeV1.Maui.pdb
