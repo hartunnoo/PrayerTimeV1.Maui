@@ -79,6 +79,12 @@ android.database.Cursor;android.database.Cursor
 Android.Graphics.Drawables.IAnimatable, Mono.Android;android.graphics.drawable.Animatable
 Android.Graphics.Drawables.IAnimatable;android.graphics.drawable.Animatable
 android.graphics.drawable.Animatable;android.graphics.drawable.Animatable
+Android.Media.MediaPlayer+IOnCompletionListener, Mono.Android;android.media.MediaPlayer$OnCompletionListener
+Android.Media.MediaPlayer.IOnCompletionListener;android.media.MediaPlayer$OnCompletionListener
+android.media.MediaPlayer$OnCompletionListener;android.media.MediaPlayer$OnCompletionListener
+Android.Media.MediaPlayer+IOnCompletionListenerImplementor, Mono.Android;mono.android.media.MediaPlayer_OnCompletionListenerImplementor
+Android.Media.MediaPlayer.IOnCompletionListenerImplementor;mono.android.media.MediaPlayer_OnCompletionListenerImplementor
+mono.android.media.MediaPlayer_OnCompletionListenerImplementor;mono.android.media.MediaPlayer_OnCompletionListenerImplementor
 Android.OS.IBinder, Mono.Android;android.os.IBinder
 Android.OS.IBinder;android.os.IBinder
 android.os.IBinder;android.os.IBinder
@@ -430,6 +436,12 @@ mono.androidx.appcompat.widget.Toolbar_OnMenuItemClickListenerImplementor;mono.a
 AndroidX.AppCompat.Widget.Toolbar+NavigationOnClickEventDispatcher, Xamarin.AndroidX.AppCompat;androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher
 AndroidX.AppCompat.Widget.Toolbar.NavigationOnClickEventDispatcher;androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher
 androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher;androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher
+AndroidX.Core.App.INotificationBuilderWithBuilderAccessor, Xamarin.AndroidX.Core;androidx.core.app.NotificationBuilderWithBuilderAccessor
+AndroidX.Core.App.INotificationBuilderWithBuilderAccessor;androidx.core.app.NotificationBuilderWithBuilderAccessor
+androidx.core.app.NotificationBuilderWithBuilderAccessor;androidx.core.app.NotificationBuilderWithBuilderAccessor
+AndroidX.Core.App.NotificationCompat+IExtender, Xamarin.AndroidX.Core;androidx.core.app.NotificationCompat$Extender
+AndroidX.Core.App.NotificationCompat.IExtender;androidx.core.app.NotificationCompat$Extender
+androidx.core.app.NotificationCompat$Extender;androidx.core.app.NotificationCompat$Extender
 AndroidX.Core.App.SharedElementCallback+IOnSharedElementsReadyListener, Xamarin.AndroidX.Core;androidx.core.app.SharedElementCallback$OnSharedElementsReadyListener
 AndroidX.Core.App.SharedElementCallback.IOnSharedElementsReadyListener;androidx.core.app.SharedElementCallback$OnSharedElementsReadyListener
 androidx.core.app.SharedElementCallback$OnSharedElementsReadyListener;androidx.core.app.SharedElementCallback$OnSharedElementsReadyListener
@@ -1459,6 +1471,9 @@ microsoft.maui.essentials.fileProvider;microsoft.maui.essentials.fileProvider
 Org.XmlPull.V1.IXmlPullParser, Mono.Android;org.xmlpull.v1.XmlPullParser
 Org.XmlPull.V1.IXmlPullParser;org.xmlpull.v1.XmlPullParser
 org.xmlpull.v1.XmlPullParser;org.xmlpull.v1.XmlPullParser
+Plugin.Maui.Audio.StreamMediaDataSource, Plugin.Maui.Audio;crc64467b05f37239e7a6.StreamMediaDataSource
+Plugin.Maui.Audio.StreamMediaDataSource;crc64467b05f37239e7a6.StreamMediaDataSource
+plugin.maui.audio.StreamMediaDataSource;crc64467b05f37239e7a6.StreamMediaDataSource
 PrayerTimeV1.Maui.MainActivity, PrayerTimeV1.Maui;crc6439eaa43dbe0ff54e.MainActivity
 PrayerTimeV1.Maui.MainActivity;crc6439eaa43dbe0ff54e.MainActivity
 prayertimev1.maui.MainActivity;crc6439eaa43dbe0ff54e.MainActivity

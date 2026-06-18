@@ -1,3 +1,4 @@
+using PrayerTimeV1.Maui.Services;
 using PrayerTimeV1.Maui.ViewModels;
 
 namespace PrayerTimeV1.Maui.Views;
@@ -5,13 +6,16 @@ namespace PrayerTimeV1.Maui.Views;
 public partial class MainPage : ContentPage
 {
     private readonly MainViewModel _vm;
+    private readonly AzanSchedulerService _azan;
     private bool _loaded;
 
-    public MainPage(MainViewModel vm)
+    public MainPage(MainViewModel vm, AzanSchedulerService azan)
     {
         InitializeComponent();
         _vm = vm;
+        _azan = azan;
         BindingContext = vm;
+        AzanSwitch.Toggled += (s, e) => _azan.Enabled = e.Value;
     }
 
     protected override async void OnAppearing()
@@ -23,6 +27,7 @@ public partial class MainPage : ContentPage
             try
             {
                 await _vm.LoadAsync();
+                _azan.Start();
             }
             catch (Exception ex)
             {
