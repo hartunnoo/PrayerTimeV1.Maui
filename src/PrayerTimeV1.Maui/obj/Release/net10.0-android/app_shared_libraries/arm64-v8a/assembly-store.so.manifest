@@ -188,8 +188,8 @@
 0xb477491be13109d8 di:47 mi:47 do:3205149 ds:9987 ddo:0 dds:0 cdo:0 cds:0 ar/Microsoft.Maui.Controls.resources
 0xb4bd7015ecee9d86 di:14 mi:14 do:235342 ds:3566 ddo:0 dds:0 cdo:0 cds:0 System.IO.Pipelines
 0xb5c7fcdafbc67ee4 di:92 mi:92 do:3665474 ds:17148 ddo:0 dds:0 cdo:0 cds:0 Microsoft.Extensions.Logging.Abstractions.dll
-0xb6524360f54def89 di:129 mi:129 do:6205694 ds:44204 ddo:0 dds:0 cdo:0 cds:0 PrayerTimeV1.Maui
-0xb717fe9c6ec4cda1 di:129 mi:129 do:6205694 ds:44204 ddo:0 dds:0 cdo:0 cds:0 PrayerTimeV1.Maui.dll
+0xb6524360f54def89 di:129 mi:129 do:6205694 ds:44214 ddo:0 dds:0 cdo:0 cds:0 PrayerTimeV1.Maui
+0xb717fe9c6ec4cda1 di:129 mi:129 do:6205694 ds:44214 ddo:0 dds:0 cdo:0 cds:0 PrayerTimeV1.Maui.dll
 0xb7212c4683a94afe di:9 mi:9 do:162893 ds:6354 ddo:0 dds:0 cdo:0 cds:0 System.Drawing.Primitives
 0xb7b7753d1f319409 di:73 mi:73 do:3464855 ds:9985 ddo:0 dds:0 cdo:0 cds:0 sv/Microsoft.Maui.Controls.resources
 0xb872c26142d22aa9 di:90 mi:90 do:3626507 ds:26584 ddo:0 dds:0 cdo:0 cds:0 Microsoft.Extensions.Http.dll
