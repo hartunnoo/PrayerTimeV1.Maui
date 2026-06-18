@@ -1,5 +1,5 @@
-<api type="release" assembly-name="PrayerTimeV1.Maui" mvid="f0b59be411ac4bf6a82f1f17173b5421">
-  <module assembly-name="PrayerTimeV1.Maui" mvid="f0b59be411ac4bf6a82f1f17173b5421" mvid-bytes="5Ju18KwR9kuoLx8XFztUIQ==">
+<api type="release" assembly-name="PrayerTimeV1.Maui" mvid="4fd28fe1484245669347a9508aae451e">
+  <module assembly-name="PrayerTimeV1.Maui" mvid="4fd28fe1484245669347a9508aae451e" mvid-bytes="4Y/ST0JIZkWTR6lQiq5FHg==">
     <types-scratch>
       <entry key="crc6439eaa43dbe0ff54e/MainActivity" java-name="crc6439eaa43dbe0ff54e/MainActivity" managed-type-name="PrayerTimeV1.Maui.MainActivity" token="33554440" />
       <entry key="crc6439eaa43dbe0ff54e/MainApplication" java-name="crc6439eaa43dbe0ff54e/MainApplication" managed-type-name="PrayerTimeV1.Maui.MainApplication" token="33554441" />
