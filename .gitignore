@@ -1,0 +1,34 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# APK/AAB outputs
+*.apk
+*.aab
+*.apks
+*.keystore
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# VS/Mac
+.vs/
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# NuGet
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nupkg
+
+# MAUI specific
+apk-output/
